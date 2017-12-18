@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-center
+  zipkin:
+    base-url: http://localhost:9099
+  sleuth:
+    sampler:
+      percentage: 1
+server:
+  port: 9092
